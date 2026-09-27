@@ -1,122 +1,72 @@
 [
   {
     "lehrjahr": 3,
-    "kategorie": "Gerontopsychiatrie",
-    "frage": "Fallbeispiel RUBIN: Ein Bewohner mit schwerer Demenz läuft unruhig über den Flur, rüttelt an der Ausgangstür und ruft: 'Ich muss zur Arbeit, die Schicht beginnt!' Wie reagierst du nach dem Prinzip der Validation?",
-    "erklaerung": "Keine Realitätsorientierung ('Sie sind im Heim und arbeiten nicht mehr'). Stattdessen das Gefühl validieren und den Antrieb annehmen.\n\nBeispiel-Antwort: Auf Augenhöhe gehen, ruhiger Tonfall: 'Sie haben immer hart gearbeitet, nicht wahr? Was war denn Ihr Beruf?' \nZiel: Den Stress reduzieren, indem die emotionale Wahrheit des Bewohners akzeptiert wird und er sich verstanden fühlt.",
-    "video_url": "https://www.youtube-nocookie.com/embed/zH064xEq64k",
-    "quelle": "Expertenstandard Beziehungsgestaltung in der Pflege von Menschen mit Demenz"
+    "kategorie": "Pflegeplanung & SIS",
+    "frage": "FALLBEISPIEL AMBULANTE PFLEGE:\nHerr K. (78) wohnt allein. Er hat eine ausgeprägte pAVK (Schaufensterkrankheit) und beginnende Demenz. Er vergisst oft zu trinken (Haut ist trocken, stehende Hautfalten). Wegen der Schmerzen in den Beinen bewegt er sich kaum noch und sitzt den ganzen Tag im Sessel. Der Pflegedienst kommt 2x täglich.\n\nAufgabe:\nFormuliere EIN konkretes Pflegeproblem nach dem PESR-Format zum Thema Flüssigkeitsmangel.",
+    "erklaerung": "P (Problem): Herr K. hat ein Flüssigkeitsdefizit (Exsikkosegefahr).\n\nE (Einflussfaktor/Ursache): Bedingt durch ein vermindertes Durstempfinden und Vergesslichkeit (beginnende Demenz).\n\nS (Symptom): Äußert sich durch trockene Haut und stehende Hautfalten (Turgor vermindert).\n\nR (Ressource): Er kann eigenständig aus einem Becher trinken, wenn man ihn anreicht und erinnert.\n\nZiel: Herr K. trinkt täglich mindestens 1,5 Liter.\nMaßnahme: Bei jedem Besuch der Sozialstation 1 großes Glas Wasser anreichen und zum Trinken animieren. Trinkprotokoll führen.",
+    "quelle": "Modellhafte Pflegeplanung - BFP24"
   },
   {
     "lehrjahr": 3,
-    "kategorie": "Recht",
-    "frage": "Du beginnst am 13.08. deinen Pflichteinsatz in der Gerontopsychiatrie bei Frau Weinmann. Welche rechtlichen Besonderheiten bzgl. der Schweigepflicht (§ 203 StGB) gelten, wenn Angehörige anrufen und Auskunft über den Patienten fordern?",
-    "erklaerung": "Auskunft darf nur erteilt werden, wenn eine gültige Schweigepflichtentbindung des Patienten vorliegt.\n\nBei einwilligungsunfähigen Patienten (z.B. schwere Demenz) muss geprüft werden, ob der Anrufer der gesetzliche Betreuer mit dem Aufgabenkreis 'Gesundheitssorge' oder ein bevollmächtigter Angehöriger (Vorsorgevollmacht) ist. Ohne diesen Nachweis darf weder die Anwesenheit noch der Zustand bestätigt werden.",
-    "video_url": "",
-    "quelle": "StGB § 203 / BGB Betreuungsrecht"
+    "kategorie": "Pflegeplanung & SIS",
+    "frage": "FALLBEISPIEL GERONTOPSYCHIATRIE:\nFrau M. (84) im Pflegeheim RUBIN. Sie hat eine schwere Alzheimer-Demenz. Sie ist sehr unruhig, läuft nachts über den Flur und sucht ihre Mutter. Letzte Woche ist sie nachts über eine Teppichkante gestürzt (Oberschenkelhalsfraktur rechts, operiert). Sie hat Schmerzen, äußert diese aber nicht verbal, sondern stöhnt beim Bewegen und verkrampft das Gesicht.\n\nAufgabe:\nFülle gedanklich die SIS-Themenfelder 1 (Kognition) und 2 (Mobilität) für Frau M. aus.",
+    "erklaerung": "Themenfeld 1 (Kognition & Kommunikation):\n- Schwere kognitive Einschränkung (Alzheimer-Demenz).\n- Stark desorientiert in Zeit, Ort und Situation (sucht die Mutter).\n- Äußert Schmerzen nicht verbal (Nonverbale Schmerzzeichen: Stöhnen, mimische Verkrampfung beachten!).\n\nThemenfeld 2 (Mobilität & Beweglichkeit):\n- Erheblich sturzgefährdet (kürzlicher Sturz mit Schenkelhalsfraktur).\n- Motorische Unruhe (nächtliches Umherlaufen).\n- Benötigt aktuell vollständige Übernahme/Unterstützung bei Transfers wegen postoperativem Zustand.\n\nRisikomatrix: Hohes Sturz- und Schmerzrisiko ankreuzen!",
+    "quelle": "SIS Strukturierte Informationssammlung"
   },
   {
     "lehrjahr": 2,
-    "kategorie": "Ambulante Pflege",
-    "frage": "Fallbeispiel Sozialstation: Du fährst auf deiner Tour zu einer Patientin, bei der du Kompressionsstrümpfe anziehst und Medikamente richtest. Über welches Gesetzbuch werden diese Leistungen abgerechnet?",
-    "erklaerung": "Dies fällt unter die Medizinische Behandlungspflege (SGB V - Krankenversicherung).\n\nVoraussetzung ist eine ärztliche Verordnung häuslicher Krankenpflege (HKP) und die Genehmigung durch die Krankenkasse. (Grundpflege wie Waschen würde hingegen über das SGB XI - Pflegeversicherung laufen).",
-    "video_url": "",
-    "quelle": "SGB V / Richtlinien zur häuslichen Krankenpflege"
-  },
-  {
-    "lehrjahr": 2,
-    "kategorie": "Ambulante Pflege",
-    "frage": "Was versteht man unter dem Begriff 'Wegezeit' in der ambulanten Pflege und warum ist die Tourenplanung so kritisch?",
-    "erklaerung": "Wegezeit ist die Arbeitszeit, die für die Fahrt zwischen den einzelnen Patienten aufgewendet wird.\nSie wird von den Kassen oft nur in Form von Wegepauschalen vergütet. Eine schlechte Tourenplanung (Kreuz und Quer) führt zu hohem unproduktivem Zeitaufwand, Stress für die Pflegekraft und wirtschaftlichen Verlusten für die Sozialstation.",
-    "video_url": "",
-    "quelle": "BWL für Pflegeberufe / Rahmenverträge SGB XI"
-  },
-  {
-    "lehrjahr": 1,
-    "kategorie": "Anatomie",
-    "frage": "Aus welchen drei Schichten ist die Herzwand aufgebaut (von innen nach außen)?",
-    "erklaerung": "1. Endokard (Herzinnenhaut): Bildet auch die Herzklappen.\n2. Myokard (Herzmuskelschicht): Die arbeitende Schicht, links deutlich dicker als rechts.\n3. Epikard (Herzaußenhaut): Das innere Blatt des Herzbeutels.",
-    "video_url": "",
-    "quelle": "I Care Anatomie, Physiologie"
-  },
-  {
-    "lehrjahr": 2,
-    "kategorie": "Krankheitslehre",
-    "frage": "Was ist die periphere arterielle Verschlusskrankheit (pAVK) und welches klinische Zeichen kennzeichnet das Stadium II?",
-    "erklaerung": "Die pAVK ist eine fortschreitende Stenosierung (Verengung) der Extremitätenarterien, meist durch Arteriosklerose.\n\nStadium II ist geprägt durch die Claudicatio intermittens ('Schaufensterkrankheit'): Ischämieschmerz bei Belastung (Gehen), der nach kurzen Ruhepausen verschwindet.",
-    "video_url": "",
-    "quelle": "Pflege Heute - Herz-Kreislauf-Erkrankungen"
-  },
-  {
-    "lehrjahr": 2,
-    "kategorie": "Krankheitslehre",
-    "frage": "Nenne die 5 Entzündungszeichen (Kardinalsymptome) auf Latein und Deutsch.",
-    "erklaerung": "1. Rubor (Rötung)\n2. Calor (Überwärmung)\n3. Tumor (Schwellung)\n4. Dolor (Schmerz)\n5. Functio laesa (Eingeschränkte Funktion)",
-    "video_url": "",
-    "quelle": "Allgemeine Pathologie"
+    "kategorie": "Pflegeplanung & SIS",
+    "frage": "FALLBEISPIEL:\nPatient mit schwerer Pneumonie und hohem Fieber. Er ist bettlägerig und schwitzt stark.\n\nAufgabe:\nWelche prophylaktischen Schwerpunkte müssen in die Pflegeplanung aufgenommen werden? Nenne mindestens drei relevante Prophylaxen mit je einer Maßnahme.",
+    "erklaerung": "1. Dekubitusprophylaxe:\nRisiko durch Bettlägerigkeit & feuchtes Milieu (Schwitzen). Maßnahme: Mikrolagerungen, regelmäßiger Wäschewechsel.\n\n2. Thromboseprophylaxe:\nRisiko durch Immobilität (Stase). Maßnahme: Bewegungsübungen im Bett (Venenpumpe), ATS oder Heparin s.c. nach ärztlicher Anordnung.\n\n3. Intertrigoprophylaxe:\nRisiko durch starkes Schwitzen (Fieber). Maßnahme: Hautfalten trocken halten, Baumwollkompressen in Bauchfalten/Unterbrustbereich einlegen.",
+    "quelle": "Pflegeplanung Prophylaxen"
   },
   {
     "lehrjahr": 3,
     "kategorie": "Gerontopsychiatrie",
-    "frage": "Was verbirgt sich hinter dem Begriff 'Sundowning' bei Demenzpatienten?",
-    "erklaerung": "Sundowning (Abendliche Verwirrtheit) bezeichnet das Phänomen, dass demenziell erkrankte Menschen in den späten Nachmittags- und frühen Abendstunden extrem unruhig, desorientiert, ängstlich oder aggressiv werden.\nAuslöser können Erschöpfung, reduziertes Licht (Schattenbildung) und Störungen des zirkadianen Rhythmus sein.",
-    "video_url": "",
-    "quelle": "Thiemes Pflege - Gerontopsychiatrie"
-  },
-  {
-    "lehrjahr": 1,
-    "kategorie": "Anatomie",
-    "frage": "Welcher Hirnnerv ist der N. vagus (Nummer) und was ist seine primäre Funktion im vegetativen Nervensystem?",
-    "erklaerung": "Der N. vagus ist der X. (10.) Hirnnerv.\nEr ist der Hauptnerv des Parasympathikus (Ruhe und Verdauung). Er senkt die Herzfrequenz, verengt die Bronchien und stimuliert die Magen-Darm-Tätigkeit.",
-    "video_url": "",
-    "quelle": "I Care Anatomie, Physiologie"
-  },
-  {
-    "lehrjahr": 3,
-    "kategorie": "Pflegeplanung",
-    "frage": "Erkläre die Struktur der SIS (Strukturierte Informationssammlung) anhand ihrer 5 Themenfelder.",
-    "erklaerung": "Zuerst erfolgt die Eingangsfrage ('Was bewegt Sie?'). Danach die 5 wissenschaftsbasierten Themenfelder:\n1. Kognitive und kommunikative Fähigkeiten\n2. Mobilität und Beweglichkeit\n3. Krankheitsbezogene Anforderungen und Belastungen\n4. Selbstversorgung\n5. Leben in sozialen Beziehungen\nAbschließend wird die Risikomatrix (Dekubitus, Sturz etc.) ausgefüllt.",
-    "video_url": "https://www.youtube-nocookie.com/embed/Pj13iF8uYtQ",
-    "quelle": "Ein-STEP Modellprogramm zur Entbürokratisierung"
+    "frage": "Was ist der MMST (Mini-Mental-Status-Test) und welche Aufgaben beinhaltet er typischerweise?",
+    "erklaerung": "Der MMST ist ein Screening-Verfahren zur Feststellung und Schweregrad-Einschätzung kognitiver Defizite (z.B. Demenz).\n\nEr prüft:\n- Orientierung (Welches Jahr haben wir? Wo sind wir?)\n- Merkfähigkeit (3 Begriffe nachsprechen und später wiederholen)\n- Aufmerksamkeit/Rechnen (Von 100 immer 7 abziehen)\n- Sprache (Einen Stift benennen, einen Satz nachsprechen)\n- Konstruktion (Zwei sich überschneidende Fünfecke abzeichnen).",
+    "quelle": "Gerontopsychiatrische Diagnostik"
   },
   {
     "lehrjahr": 2,
-    "kategorie": "Recht",
-    "frage": "Was besagt das Remonstrationsrecht in der Pflege?",
-    "erklaerung": "Es ist das Recht und die Pflicht einer Pflegefachkraft, Bedenken gegen eine ärztliche Anordnung (oder pflegerische Weisung) zu äußern, wenn diese als fehlerhaft oder gefährlich erkannt wird.\nDie Bedenken müssen dem Anordnenden (z.B. Arzt) mitgeteilt und dokumentiert werden. Weigert sich die Pflegekraft bei einer offensichtlich falschen Anordnung (z.B. tödliche Dosis) nicht, macht sie sich selbst strafbar (Durchführungsverantwortung).",
-    "video_url": "",
-    "quelle": "Pflegeberufegesetz / Haftungsrecht"
-  },
-  {
-    "lehrjahr": 1,
-    "kategorie": "Grundpflege",
-    "frage": "Welche 3 Faktoren gehören zur Virchow-Trias (Risikofaktoren für eine Thrombose)?",
-    "erklaerung": "1. Verlangsamte Blutströmung (Stase, z.B. durch Immobilität).\n2. Gefäßwandschäden (Endothelschäden, z.B. durch OP, Trauma, Entzündung).\n3. Erhöhte Gerinnungsneigung des Blutes (Hyperkoagulabilität, z.B. durch Exsikkose, Tumore, Medikamente).",
-    "video_url": "",
-    "quelle": "Pflege Heute - Prophylaxen"
-  },
-  {
-    "lehrjahr": 3,
     "kategorie": "Krankheitslehre",
-    "frage": "Was versteht man unter einer Aphasie, Apraxie und Agnosie (die 3 A's der Alzheimer-Demenz)?",
-    "erklaerung": "Aphasie: Sprachstörung (Verlust der Fähigkeit zu sprechen oder Sprache zu verstehen).\nApraxie: Störung von Handlungsabläufen (z.B. Unfähigkeit, sich mit Besteck richtig zu ernähren, obwohl die Motorik intakt ist).\nAgnosie: Störung des Erkennens (z.B. das Nicht-Wiedererkennen von Gesichtern oder Alltagsgegenständen, obwohl die Augen gesund sind).",
-    "video_url": "",
-    "quelle": "Neurologie und Psychiatrie für Pflegeberufe"
+    "frage": "Rechtsherzinsuffizienz vs. Linksherzinsuffizienz: Was sind die typischen, unterscheidbaren Symptome?",
+    "erklaerung": "Rechtsherzinsuffizienz (Blut staut sich in den Körper zurück):\n- Beinödeme (besonders abends)\n- Halsvenenstauung\n- Leberschwellung (Stauungsleber)\n- Nykturie (Nächtliches Wasserlassen, da die Ödeme im Liegen ausgeschwemmt werden).\n\nLinksherzinsuffizienz (Blut staut sich in die Lunge zurück):\n- Dyspnoe (Atemnot, besonders im Liegen -> Orthopnoe)\n- Lungenödem (rasselnde Atemgeräusche)\n- Zyanose (Blausucht).",
+    "quelle": "Pflege Heute - Herzinsuffizienz"
   },
   {
-    "lehrjahr": 2,
+    "lehrjahr": 1,
     "kategorie": "Anatomie",
     "frage": "Beschreibe die Aufgaben der Nieren (Ren).",
     "erklaerung": "1. Ausscheidung von harnpflichtigen Substanzen (Harnstoff, Harnsäure, Kreatinin).\n2. Regulation des Wasser- und Elektrolythaushalts.\n3. Regulation des Blutdrucks (Renin-Angiotensin-Aldosteron-System).\n4. Blutbildung (Produktion von Erythropoetin/EPO).\n5. Regulation des Säure-Basen-Haushalts.",
-    "video_url": "",
     "quelle": "Mensch Körper Krankheit"
   },
   {
-    "lehrjahr": 3,
+    "lehrjahr": 2,
     "kategorie": "Ambulante Pflege",
-    "frage": "Ein alleinlebender Patient in der ambulanten Pflege öffnet trotz Termin nicht die Tür. Wie handelst du?",
-    "erklaerung": "1. Rufen, Klopfen, Klingeln (auch ans Fenster schauen, falls Erdgeschoss).\n2. Pflegedienstleitung (PDL) bzw. Sozialstation informieren.\n3. Angehörige mit Schlüssel (laut Akte) kontaktieren.\n4. Bei akutem Verdacht auf eine Notsituation (z.B. Stöhnen hörbar, Briefkasten übervoll) direkt Polizei/Feuerwehr für eine Notöffnung anfordern. Niemals einfach weiterfahren ohne Klärung!",
-    "video_url": "",
-    "quelle": "Qualitätsmanagement Ambulante Pflege"
+    "frage": "Welche Besonderheit gilt für die Delegation von s.c. Injektionen in der ambulanten Pflege (z.B. Sozialstation)?",
+    "erklaerung": "Sie dürfen im Rahmen der Behandlungspflege (SGB V) vom Arzt an Pflegefachkräfte delegiert werden. \nDie Fachkraft trägt die Durchführungsverantwortung (sie muss es fachgerecht können), der Arzt die Anordnungsverantwortung. Die Anordnung muss schriftlich vorliegen (Verordnung häuslicher Krankenpflege).",
+    "quelle": "SGB V / Recht in der Pflege"
+  },
+  {
+    "lehrjahr": 2,
+    "kategorie": "Krankheitslehre",
+    "frage": "Wie erkennst du eine Hypoglykämie (Unterzuckerung) und was ist die Erstmaßnahme?",
+    "erklaerung": "Symptome: Kaltschweißigkeit, Zittern (Tremor), Tachykardie, Blässe, Verwirrtheit, Heißhunger, Aggressivität.\n\nMaßnahme: Bei Bewusstsein sofort schnell wirksame Kohlenhydrate verabreichen (z.B. Traubenzucker, Apfelsaft). Bei Bewusstlosigkeit: Arzt rufen, stabile Seitenlage, keine orale Zufuhr (Aspirationsgefahr!), ggf. Glukagon s.c. nach Anordnung.",
+    "quelle": "Pflege Heute - Endokrinologie"
+  },
+  {
+    "lehrjahr": 3,
+    "kategorie": "Recht",
+    "frage": "Was besagt das Remonstrationsrecht in der Pflege?",
+    "erklaerung": "Es ist das Recht und die Pflicht einer Pflegefachkraft, Bedenken gegen eine ärztliche Anordnung zu äußern, wenn diese als fehlerhaft oder gefährlich erkannt wird.\n\nDie Bedenken müssen dem Arzt mitgeteilt und dokumentiert werden. Weigert sich die Pflegekraft bei einer offensichtlich falschen Anordnung (z.B. tödliche Dosis) nicht, macht sie sich selbst strafbar (Durchführungsverantwortung).",
+    "quelle": "Haftungsrecht für Pflegeberufe"
+  },
+  {
+    "lehrjahr": 1,
+    "kategorie": "Anatomie",
+    "frage": "Was ist der Unterschied zwischen Arterien und Venen im Körperkreislauf?",
+    "erklaerung": "Arterien:\nFühren das Blut vom Herzen weg (im Körperkreislauf sauerstoffreich), haben eine dicke muskulöse Wand und einen spürbaren Puls.\n\nVenen:\nFühren das Blut zum Herzen hin (sauerstoffarm), haben dünnere Wände und besitzen Venenklappen, um den Blut-Rückfluss zu verhindern.",
+    "quelle": "I Care Anatomie"
   }
 ]
