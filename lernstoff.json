@@ -69,4 +69,94 @@
     "erklaerung": "Arterien:\nFühren das Blut vom Herzen weg (im Körperkreislauf sauerstoffreich), haben eine dicke muskulöse Wand und einen spürbaren Puls.\n\nVenen:\nFühren das Blut zum Herzen hin (sauerstoffarm), haben dünnere Wände und besitzen Venenklappen, um den Blut-Rückfluss zu verhindern.",
     "quelle": "I Care Anatomie"
   }
-]
+,{
+    "lehrjahr": 3,
+    "kategorie": "Pflegeplanung & SIS",
+    "frage": "FALLBEISPIEL GERONTOPSYCHIATRIE:\nDu bist im Pflichteinsatz und besprichst mit Frau Weinmann einen Fall: Ein Bewohner mit fortgeschrittener Demenz verweigert strikt die Medikamenteneinnahme, da er glaubt, die Tabletten seien vergiftet. Wie reagierst du?",
+    "erklaerung": "1. Nicht diskutieren oder die Realität aufzwingen ('Die sind nicht vergiftet, der Arzt hat das verordnet!').\n2. Validation der Emotion: Die Angst ernst nehmen ('Haben Sie Angst, dass Ihnen jemand schaden will?').\n3. Einen späteren Zeitpunkt wählen: Die Situation verlassen und es nach 15-30 Minuten durch eine andere Pflegekraft oder in einem anderen Kontext (z.B. eingebettet in eine Mahlzeit, falls medikamentös erlaubt) erneut versuchen.",
+    "quelle": "Umgang mit herausforderndem Verhalten bei Demenz"
+  },
+  {
+    "lehrjahr": 2,
+    "kategorie": "Ambulante Pflege",
+    "frage": "FALLBEISPIEL AMBULANTE PFLEGE:\nAuf deiner Tour für die Ökumenische Sozialstation sollst du bei einem Patienten Kompressionsverbände (Pütter-Verband) anlegen. Der Patient hat laut Akte eine schwere pAVK im Stadium III. Was tust du?",
+    "erklaerung": "Der Kompressionsverband darf NICHT angelegt werden!\nEine fortgeschrittene periphere arterielle Verschlusskrankheit (pAVK ab Stadium IIb/III) ist eine absolute Kontraindikation für Kompressionstherapie. Der Druck würde die ohnehin kritisch verminderte arterielle Durchblutung weiter abschnüren und Gewebsnekrosen provozieren. Rücksprache mit der PDL und dem behandelnden Arzt halten.",
+    "quelle": "Expertenstandard Erhaltung der Hautintegrität / Angiologie"
+  },
+  {
+    "lehrjahr": 1,
+    "kategorie": "Grundpflege",
+    "frage": "Was ist der Unterschied zwischen Soor und Parotitis, und wie beugst du beiden vor?",
+    "erklaerung": "Soor: Pilzinfektion (meist Candida albicans) der Mundschleimhaut (weiße, abwischbare Beläge).\nParotitis: Schmerzhafte bakterielle Entzündung der Ohrspeicheldrüse (Glandula parotidea), oft durch verminderten Speichelfluss.\n\nProphylaxe (Soor- und Parotitisprophylaxe):\n- Ausreichende Flüssigkeitszufuhr (Speichelfluss anregen).\n- Kauen anregen (Kaugummi, Brotrinde, saure Drops bei fehlender Aspirationsgefahr).\n- Regelmäßige, gründliche Mund- und Zahnpflege.",
+    "quelle": "Pflege Heute - Körperpflege"
+  },
+  {
+    "lehrjahr": 2,
+    "kategorie": "Recht",
+    "frage": "Du beobachtest, wie eine Kollegin einem unruhigen Patienten ohne richterlichen Beschluss und ohne rechtfertigenden Notstand das Bettgitter komplett hochzieht. Welchen Straftatbestand erfüllt sie damit?",
+    "erklaerung": "Sie begeht eine Freiheitsberaubung nach § 239 StGB.\nErschwerend kommt Nötigung (§ 240 StGB) hinzu. Dies kann strafrechtliche Konsequenzen (Geld- oder Freiheitsstrafe) sowie arbeitsrechtliche Folgen (fristlose Kündigung, Verlust der Berufszulassung) nach sich ziehen.",
+    "quelle": "StGB Freiheitsberaubung"
+  },
+  {
+    "lehrjahr": 2,
+    "kategorie": "Krankheitslehre",
+    "frage": "Erkläre die Pathophysiologie der COPD (Chronisch obstruktive Lungenerkrankung). Welche zwei Hauptkomponenten liegen vor?",
+    "erklaerung": "1. Chronische obstruktive Bronchitis: Dauerhafte Entzündung der Atemwege mit massiver Schleimproduktion und Verengung (Obstruktion) der Bronchien.\n2. Lungenemphysem: Überblähung der Alveolen (Lungenbläschen). Die Alveolarsepten werden zerstört, aus vielen kleinen Bläschen wird eine große Blase. Die Fläche für den Gasaustausch nimmt massiv ab, die Lunge verliert ihre Elastizität.",
+    "quelle": "Pneumologie"
+  },
+  {
+    "lehrjahr": 1,
+    "kategorie": "Anatomie",
+    "frage": "Was ist der Unterschied zwischen dem Sympathikus und dem Parasympathikus im vegetativen Nervensystem?",
+    "erklaerung": "Sympathikus ('Fight or Flight'):\nWird in Stresssituationen aktiv. Erweitert die Pupillen, beschleunigt den Herzschlag, weitet die Bronchien, hemmt die Verdauung.\n\nParasympathikus ('Rest and Digest'):\nWird in Ruhephasen aktiv (gesteuert v.a. durch den N. vagus). Verengt die Pupillen, senkt die Herzfrequenz, regt die Magen-Darm-Tätigkeit und Verdauungsdrüsen an.",
+    "quelle": "I Care Anatomie - Nervensystem"
+  },
+  {
+    "lehrjahr": 2,
+    "kategorie": "Krankheitslehre",
+    "frage": "Welche 4 Schweregrade (Kategorien) unterscheidet man beim Dekubitus?",
+    "erklaerung": "Kategorie 1: Nicht wegdrückbare, umschriebene Rötung bei intakter Haut.\nKategorie 2: Teilverlust der Haut (Epidermis bis Dermis), flaches offenes Ulcus oder intakte/offene Blase.\nKategorie 3: Vollständiger Gewebeverlust. Subkutanes Fett ist sichtbar, aber keine Knochen, Sehnen oder Muskeln.\nKategorie 4: Vollständiger Gewebeverlust mit freiliegenden Knochen, Sehnen oder Muskeln. Oft mit Taschenbildung und Nekrosen.",
+    "quelle": "Expertenstandard Dekubitusprophylaxe in der Pflege"
+  },
+  {
+    "lehrjahr": 3,
+    "kategorie": "Ambulante Pflege",
+    "frage": "FALLBEISPIEL:\nDu versorgst einen MRSA-positiven Patienten (Abstrich Nase/Rachen) ambulant in seiner Wohnung. Welche Hygienemaßnahmen sind zwingend erforderlich?",
+    "erklaerung": "1. Schutzausrüstung (PSA): Vor Betreten des Patientenzimmers/Bereichs Einittelkittel, Handschuhe und FFP2-Maske (da Besiedlung im Nasen-Rachen-Raum) anlegen.\n2. Händehygiene: Strikte chirurgische/hygienische Händedesinfektion vor und nach direktem Kontakt.\n3. Abwurf: Verbrauchte Materialien direkt im Zimmer in einem geschlossenen Müllsack entsorgen.\n4. Tourenplanung: Den Patienten möglichst an das Ende der Tour legen, um eine Keimverschleppung zu anderen Risikopatienten zu vermeiden.",
+    "quelle": "RKI-Richtlinien MRSA in der ambulanten Pflege"
+  },
+  {
+    "lehrjahr": 2,
+    "kategorie": "Recht",
+    "frage": "Was ist die Patientenakte rechtlich gesehen und wem gehört sie?",
+    "erklaerung": "Die Patientenakte ist eine Urkunde (§ 274 StGB).\nDas Eigentum (Papier/Hardware) gehört der Einrichtung bzw. dem Träger (z.B. der Sozialstation). Die darin enthaltenen Informationen (das geistige Eigentum) gehören jedoch dem Patienten. Der Patient hat nach § 630g BGB jederzeit das Recht auf Einsichtnahme in seine vollständige Patientenakte.",
+    "quelle": "Patientenrechtegesetz (BGB)"
+  },
+  {
+    "lehrjahr": 1,
+    "kategorie": "Grundpflege",
+    "frage": "Definiere den Begriff 'Intertrigo' und nenne drei typische Prädilektionsstellen (gefährdete Körperstellen).",
+    "erklaerung": "Intertrigo (Hautwolf) ist eine nässende Entzündung der Haut, die dort entsteht, wo Hautflächen aufeinanderliegen und reiben (Kombination aus Feuchtigkeit, Wärme und Friktion).\n\nPrädilektionsstellen:\n1. Submammär (unter den Brüsten)\n2. Inguinal (Leistenbeuge)\n3. Analfalte / Rima ani\n4. Axillär (Achselhöhlen)\n5. Bauchfalten (bei Adipositas).",
+    "quelle": "Dermatologie in der Pflege"
+  },
+  {
+    "lehrjahr": 3,
+    "kategorie": "Krankheitslehre",
+    "frage": "Ein Patient stürzt auf den Kopf. Stunden später wird er zunehmend somnolent (schläfrig) und die Pupillen reagieren asymmetrisch (Anisokorie). Welches akut lebensbedrohliche Krankheitsbild vermutest du?",
+    "erklaerung": "Verdacht auf ein Schädel-Hirn-Trauma (SHT) mit intrakranieller Blutung (z.B. Epiduralhämatom oder Subduralhämatom).\nDer steigende Hirndruck klemmt wichtige Hirnnerven ab (daher die Pupillendifferenz) und drückt auf den Hirnstamm (Bewusstseinstrübung). Dies ist ein absoluter neurochirurgischer Notfall! Sofort Notarzt alarmieren, Oberkörper leicht hochlagern (30 Grad, falls HWS-Trauma ausgeschlossen).",
+    "quelle": "Neurologische Notfälle"
+  },
+  {
+    "lehrjahr": 2,
+    "kategorie": "Anatomie",
+    "frage": "Nenne die 3 Abschnitte des Dünndarms in der korrekten Reihenfolge von oben nach unten.",
+    "erklaerung": "1. Duodenum (Zwölffingerdarm) - hier münden Gallen- und Pankreasgang.\n2. Jejunum (Leerdarm).\n3. Ileum (Krummdarm) - mündet über die Bauhin-Klappe in den Dickdarm (Caecum).",
+    "quelle": "Gastroenterologie"
+  },
+  {
+    "lehrjahr": 3,
+    "kategorie": "Gerontopsychiatrie",
+    "frage": "Was beinhaltet das Konzept der 'Milieutherapie' in der Versorgung von Menschen mit Demenz?",
+    "erklaerung": "Die Milieutherapie passt die räumliche, soziale und organisatorische Umwelt an die veränderten Bedürfnisse des Demenzkranken an, da dieser sich nicht mehr an die Umwelt anpassen kann.\n\nElemente:\n- Räumlich: Orientierungshilfen (große Uhren, Bilder an den Türen), Kontraste, Beseitigung von Gefahrenquellen.\n- Sozial: Feste Bezugspersonen, wertschätzendes Klima, Einbezug von Biografiewissen.\n- Zeitlich: Klar strukturierter Tagesablauf, der Sicherheit vermittelt.",
+    "quelle": "Expertenstandard Beziehungsgestaltung bei Demenz"
+  }]
