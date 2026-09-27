@@ -3,69 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>BFP24 | Pflege-Examenstrainer</title>
+    <title>BFP24 Premium Examenstrainer</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <div class="app-container">
-        <header>
-            <h1>BFP24 Examenstrainer 🩺</h1>
-            <p class="subtitle">Berufsbildende Schule & Praxis</p>
-        </header>
+        <!-- DASHBOARD MENU -->
+        <div id="dashboardView" class="view active">
+            <header class="app-header">
+                <div>
+                    <h1>BFP24 Trainer</h1>
+                    <p class="subtitle">BBS Landstuhl Edition</p>
+                </div>
+                <div class="stats-badge">
+                    <i class="fa-solid fa-fire"></i> <span id="streakCounter">0</span>
+                </div>
+            </header>
 
-        <div class="filters">
-            <select id="lehrjahrFilter">
-                <option value="alle">📚 Alle Lehrjahre</option>
-                <option value="1">🟢 1. Lehrjahr (Grundlagen)</option>
-                <option value="2">🟡 2. Lehrjahr (Spezifisch)</option>
-                <option value="3">🔴 3. Lehrjahr (Examen & Komplex)</option>
-            </select>
-            
-            <select id="kategorieFilter">
-                <option value="alle">🔍 Alle Kategorien</option>
-                <option value="Anatomie">Anatomie & Physiologie</option>
-                <option value="Gerontopsychiatrie">Gerontopsychiatrie</option>
-                <option value="Ambulante Pflege">Ambulante Pflege</option>
-                <option value="Krankheitslehre">Krankheitslehre</option>
-                <option value="Recht">Recht & Ethik</option>
-            </select>
+            <div class="dashboard-grid">
+                <div class="dashboard-card" onclick="startModus('lernen')">
+                    <div class="icon-wrapper blue"><i class="fa-solid fa-book-open"></i></div>
+                    <h3>Lern-Modus</h3>
+                    <p>Endlos Karten studieren mit KI-Videos.</p>
+                </div>
+                <div class="dashboard-card" onclick="startModus('quiz')">
+                    <div class="icon-wrapper purple"><i class="fa-solid fa-trophy"></i></div>
+                    <h3>Quiz-Modus</h3>
+                    <p>10 zufällige Fragen. Teste dein Wissen.</p>
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <h3>Fokus wählen</h3>
+                <select id="kategorieFilter" class="modern-select">
+                    <option value="alle">🌐 Alle Themengebiete</option>
+                    <option value="Gerontopsychiatrie">🧠 Gerontopsychiatrie</option>
+                    <option value="Ambulante Pflege">🚗 Ambulante Pflege</option>
+                    <option value="Krankheitslehre">🤒 Krankheitslehre</option>
+                    <option value="Anatomie">🦴 Anatomie & Physiologie</option>
+                    <option value="Recht">⚖️ Recht & Orga</option>
+                </select>
+                <select id="lehrjahrFilter" class="modern-select mt-10">
+                    <option value="alle">📚 Gesamte Ausbildung (LJ 1-3)</option>
+                    <option value="1">🟢 1. Lehrjahr</option>
+                    <option value="2">🟡 2. Lehrjahr</option>
+                    <option value="3">🔴 3. Lehrjahr</option>
+                </select>
+            </div>
         </div>
 
-        <div class="card-counter">
-            <span id="kartenStatus">Wähle deine Filter und starte!</span>
-        </div>
+        <!-- STUDY / QUIZ VIEW -->
+        <div id="studyView" class="view">
+            <nav class="top-nav">
+                <button class="icon-btn" onclick="zurueckZumDashboard()"><i class="fa-solid fa-arrow-left"></i></button>
+                <div class="progress-bar-container">
+                    <div id="quizProgress" class="progress-bar"></div>
+                </div>
+                <span id="scoreDisplay" class="score-display hidden"><i class="fa-solid fa-star"></i> <span id="scoreValue">0</span></span>
+            </nav>
 
-        <!-- Die 3D Flip-Karte -->
-        <div class="flip-card hidden" id="lernKarte">
-            <div class="flip-card-inner" id="cardInner">
-                <!-- VORDERSEITE (Frage) -->
-                <div class="flip-card-front">
-                    <div class="card-header">
-                        <span class="badge badge-lj" id="badgeLehrjahr"></span>
-                        <span class="badge badge-kat" id="badgeKategorie"></span>
+            <div class="flip-card" id="lernKarte">
+                <div class="flip-card-inner" id="cardInner">
+                    <!-- VORDERSEITE -->
+                    <div class="flip-card-front">
+                        <div class="card-header">
+                            <span class="badge badge-lj" id="badgeLehrjahr"></span>
+                            <span class="badge badge-kat" id="badgeKategorie"></span>
+                        </div>
+                        <div class="question-content">
+                            <h2 id="frageText">Lädt...</h2>
+                            <p class="hint"><i class="fa-solid fa-hand-pointer"></i> Tippe zum Aufdecken</p>
+                        </div>
                     </div>
-                    <div class="question-content">
-                        <h2 id="frageText">Lädt...</h2>
-                        <p class="hint">Tippe auf die Karte, um die Lösung zu sehen</p>
+                    
+                    <!-- RÜCKSEITE -->
+                    <div class="flip-card-back">
+                        <div class="answer-content">
+                            <h3>Lösung</h3>
+                            <p id="erklaerungText"></p>
+                            <div id="videoContainer" class="video-container"></div>
+                            <div id="quellenText" class="quelle"></div>
+                        </div>
                     </div>
                 </div>
-                
-                <!-- RÜCKSEITE (Lösung) -->
-                <div class="flip-card-back">
-                    <div class="answer-content">
-                        <h3>Lösung:</h3>
-                        <p id="erklaerungText"></p>
-                        <div id="videoContainer"></div>
-                        <div id="quellenText" class="quelle"></div>
-                    </div>
+            </div>
+
+            <!-- CONTROLS: LERN-MODUS -->
+            <div id="lernControls" class="actions">
+                <button id="nextCardBtn" class="btn-primary w-100">Nächste Karte <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <!-- CONTROLS: QUIZ-MODUS -->
+            <div id="quizControls" class="actions hidden">
+                <p class="eval-text">Wusstest du die Antwort?</p>
+                <div class="btn-group">
+                    <button class="btn-danger" onclick="bewerteAntwort(false)"><i class="fa-solid fa-xmark"></i> Nein</button>
+                    <button class="btn-success" onclick="bewerteAntwort(true)"><i class="fa-solid fa-check"></i> Ja</button>
                 </div>
             </div>
         </div>
 
-        <div class="actions">
-            <button id="nextButton" class="btn-primary hidden">Nächste Karte ziehen ➔</button>
-            <button id="startButton" class="btn-primary">Training starten</button>
+        <!-- RESULT VIEW -->
+        <div id="resultView" class="view text-center">
+            <div class="result-icon"><i class="fa-solid fa-medal"></i></div>
+            <h1 class="result-title">Quiz beendet!</h1>
+            <div class="score-circle">
+                <span id="finalScore">8/10</span>
+            </div>
+            <p id="resultMessage" class="result-message">Starke Leistung für das Examen!</p>
+            <button class="btn-primary w-100 mt-20" onclick="zurueckZumDashboard()">Zurück zum Menü</button>
         </div>
     </div>
 
