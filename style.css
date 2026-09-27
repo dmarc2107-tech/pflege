@@ -1,0 +1,124 @@
+:root {
+    --primary: #0ea5e9;
+    --primary-hover: #0284c7;
+    --bg-color: #f1f5f9;
+    --card-bg: #ffffff;
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+    --accent: #10b981;
+}
+
+* { box-sizing: border-box; font-family: 'Inter', sans-serif; }
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    margin: 0;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 500px;
+}
+
+header h1 { font-size: 1.8rem; font-weight: 800; text-align: center; margin: 0 0 5px 0; color: var(--text-main); }
+.subtitle { text-align: center; color: var(--text-muted); font-size: 0.9rem; margin-bottom: 25px; }
+
+/* Filter */
+.filters { display: flex; gap: 10px; margin-bottom: 15px; }
+select {
+    flex: 1;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #cbd5e1;
+    background: var(--card-bg);
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-main);
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.card-counter { text-align: center; font-size: 0.85rem; font-weight: 600; color: var(--text-muted); margin-bottom: 20px; }
+
+/* 3D Flip Card Container */
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    min-height: 350px;
+    perspective: 1000px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 350px;
+    text-align: center;
+    transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transform-style: preserve-3d;
+}
+
+/* Die Flip-Aktion wird durch diese Klasse ausgelöst */
+.flip-card-inner.is-flipped { transform: rotateY(180deg); }
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    min-height: 350px;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+    background: var(--card-bg);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Vorderseite */
+.flip-card-front { z-index: 2; }
+.card-header { display: flex; justify-content: center; gap: 8px; margin-bottom: 20px; }
+.badge { padding: 5px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; }
+.badge-lj { background: #e0f2fe; color: #0369a1; }
+.badge-kat { background: #f1f5f9; color: #475569; }
+
+.question-content { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+h2 { font-size: 1.4rem; line-height: 1.4; color: var(--text-main); margin: 0; }
+.hint { font-size: 0.85rem; color: var(--text-muted); margin-top: auto; opacity: 0.7; }
+
+/* Rückseite */
+.flip-card-back {
+    transform: rotateY(180deg);
+    text-align: left;
+    overflow-y: auto;
+}
+.flip-card-back h3 { color: var(--accent); margin-top: 0; font-size: 1.1rem; }
+#erklaerungText { font-size: 1.05rem; line-height: 1.6; color: var(--text-main); }
+.quelle { font-size: 0.8rem; color: var(--text-muted); margin-top: auto; padding-top: 15px; border-top: 1px solid #e2e8f0; font-style: italic; }
+
+iframe { width: 100%; aspect-ratio: 16/9; border-radius: 12px; margin: 15px 0; border: none; }
+
+/* Buttons */
+.btn-primary {
+    width: 100%;
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 14px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(14, 165, 233, 0.3);
+    transition: all 0.2s;
+}
+.btn-primary:active { transform: scale(0.98); }
+
+.hidden { display: none !important; }

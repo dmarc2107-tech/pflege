@@ -1,0 +1,122 @@
+[
+  {
+    "lehrjahr": 3,
+    "kategorie": "Gerontopsychiatrie",
+    "frage": "Was ist der gravierende Unterschied zwischen einer Demenz und einem Delir?",
+    "erklaerung": "Demenz ist ein schleichender, chronischer und meist irreversibler Abbau der kognitiven Fähigkeiten. Das Delir hingegen ist ein akuter, plötzlicher Verwirrtheitszustand (oft mit Bewusstseinstrübung und Halluzinationen), der durch körperliche Ursachen (z.B. Exsikkose, Infekte, Medikamente) ausgelöst wird und reversibel ist, wenn die Ursache behoben wird.",
+    "video_url": "",
+    "quelle": "Thiemes Pflege, 14. Auflage - Gerontopsychiatrie"
+  },
+  {
+    "lehrjahr": 3,
+    "kategorie": "Gerontopsychiatrie",
+    "frage": "Erkläre die Grundhaltung der Validation (nach Naomi Feil).",
+    "erklaerung": "Die Validation begegnet Menschen mit Demenz mit unbedingter Wertschätzung. Der Pflegende akzeptiert die innere Erlebniswelt und Realität des Erkrankten als wahr, ohne ihn zu korrigieren. Emotionen (z.B. Angst, Trauer) werden gespiegelt und validiert (für gültig erklärt).",
+    "video_url": "",
+    "quelle": "Expertenstandard Beziehungsgestaltung in der Pflege von Menschen mit Demenz"
+  },
+  {
+    "lehrjahr": 2,
+    "kategorie": "Ambulante Pflege",
+    "frage": "Welche Besonderheit gilt für die Delegation von s.c. Injektionen in der ambulanten Pflege (z.B. Sozialstation)?",
+    "erklaerung": "Sie dürfen im Rahmen der Behandlungspflege (SGB V) vom Arzt an Pflegefachkräfte delegiert werden. Die Fachkraft trägt die Durchführungsverantwortung, der Arzt die Anordnungsverantwortung. Die Anordnung muss schriftlich vorliegen (Verordnung häuslicher Krankenpflege).",
+    "video_url": "",
+    "quelle": "SGB V / Richtlinien zur häuslichen Krankenpflege"
+  },
+  {
+    "lehrjahr": 1,
+    "kategorie": "Anatomie",
+    "frage": "Beschreibe den Weg des Blutes durch die rechte Herzhälfte.",
+    "erklaerung": "Sauerstoffarmes Blut fließt über die obere und untere Hohlvene in den rechten Vorhof -> durch die Trikuspidalklappe in die rechte Herzkammer -> durch die Pulmonalklappe in die Lungenarterie (Truncus pulmonalis) zur Lunge.",
+    "video_url": "",
+    "quelle": "I Care Anatomie, Physiologie"
+  },
+  {
+    "lehrjahr": 1,
+    "kategorie": "Anatomie",
+    "frage": "Welche Aufgaben hat die Leber (Hepar)? Nenne mindestens drei.",
+    "erklaerung": "1. Entgiftung (Abbau von Alkohol, Medikamenten, Ammoniak).\n2. Stoffwechsel (Speicherung von Glykogen, Fetten, Vitaminen).\n3. Produktion von Gallenflüssigkeit für die Fettverdauung.\n4. Synthese von Blutgerinnungsfaktoren und Proteinen (Albumin).",
+    "video_url": "",
+    "quelle": "Mensch Körper Krankheit"
+  },
+  {
+    "lehrjahr": 2,
+    "kategorie": "Krankheitslehre",
+    "frage": "Was sind die klassischen Leitsymptome (Poly-Symptomatik) eines Diabetes Mellitus?",
+    "erklaerung": "Polyurie (vermehrtes Wasserlassen), Polydipsie (starker Durst), Gewichtsverlust trotz Heißhunger, Müdigkeit/Leistungsminderung, erhöhte Infektanfälligkeit und Juckreiz (Pruritus).",
+    "video_url": "",
+    "quelle": "Pflege Heute - Endokrinologie"
+  },
+  {
+    "lehrjahr": 2,
+    "kategorie": "Krankheitslehre",
+    "frage": "Wie erkennst du eine Hypoglykämie (Unterzuckerung) und was ist die Erstmaßnahme?",
+    "erklaerung": "Symptome: Kaltschweißigkeit, Zittern (Tremor), Tachykardie, Blässe, Verwirrtheit, Heißhunger, Aggressivität.\nMaßnahme: Bei Bewusstsein sofort schnell wirksame Kohlenhydrate verabreichen (z.B. Traubenzucker, Apfelsaft). Bei Bewusstlosigkeit: Arzt rufen, stabile Seitenlage, keine orale Zufuhr (Aspirationsgefahr!), Glukagon s.c./i.m. nach ärztlicher Anordnung.",
+    "video_url": "",
+    "quelle": "Pflege Heute - Notfälle"
+  },
+  {
+    "lehrjahr": 1,
+    "kategorie": "Anatomie",
+    "frage": "Was ist der Unterschied zwischen Arterien und Venen im Körperkreislauf?",
+    "erklaerung": "Arterien führen das Blut vom Herzen weg (im Körperkreislauf sauerstoffreich), haben eine dicke muskulöse Wand und einen spürbaren Puls. Venen führen das Blut zum Herzen hin (sauerstoffarm), haben dünnere Wände und besitzen Venenklappen, um den Rückfluss zu verhindern.",
+    "video_url": "",
+    "quelle": "I Care Anatomie, Physiologie"
+  },
+  {
+    "lehrjahr": 3,
+    "kategorie": "Recht",
+    "frage": "Unter welchen rechtlichen Voraussetzungen darf ein Bettgitter (als freiheitsentziehende Maßnahme) hochgezogen werden?",
+    "erklaerung": "Eine FEM (Freiheitsentziehende Maßnahme) erfordert zwingend: \n1. Die informierte Einwilligung des einwilligungsfähigen Patienten ODER \n2. Eine richterliche Genehmigung (Betreuungsgericht) beim nicht-einwilligungsfähigen Patienten ODER \n3. Den rechtfertigenden Notstand (§ 34 StGB) bei akuter Eigen- oder Fremdgefährdung (dieser ist zeitlich stark begrenzt und erfordert die sofortige Einleitung der gerichtlichen Klärung).",
+    "video_url": "",
+    "quelle": "BGB / StGB / Pflegeberufegesetz"
+  },
+  {
+    "lehrjahr": 1,
+    "kategorie": "Grundpflege",
+    "frage": "Erkläre das Prinzip der Basalen Stimulation nach Fröhlich.",
+    "erklaerung": "Es ist ein Förderkonzept für schwer beeinträchtigte Menschen. Ziel ist es, durch gezielte sensorische Reize (z.B. beruhigende oder belebende Körperwaschungen, Lagerungen) die Wahrnehmung des eigenen Körpers und der Umwelt zu fördern. Kommunikation findet oft über somatische (körperliche) Reize statt.",
+    "video_url": "",
+    "quelle": "Thiemes Pflege"
+  },
+  {
+    "lehrjahr": 2,
+    "kategorie": "Krankheitslehre",
+    "frage": "Welche 3 Faktoren gehören zur Virchow-Trias (Risikofaktoren für eine Thrombose)?",
+    "erklaerung": "1. Verlangsamte Blutströmung (Stase, z.B. durch Immobilität).\n2. Gefäßwandschäden (z.B. durch OP, Trauma, Entzündung).\n3. Erhöhte Gerinnungsneigung des Blutes (Hyperkoagulabilität, z.B. durch Exsikkose, Tumore, Medikamente).",
+    "video_url": "",
+    "quelle": "Pflege Heute - Prophylaxen"
+  },
+  {
+    "lehrjahr": 3,
+    "kategorie": "Ambulante Pflege",
+    "frage": "Wie beurteilst du Wunden nach dem URGE-Prinzip?",
+    "erklaerung": "U = Umgebung (intakt, gerötet, mazeriert).\nR = Rand (glatt, unterminiert, wulstig).\nG = Grund (Nekrose, Fibrin, Granulation, Epithelisation).\nE = Exsudat (Menge, Farbe, Geruch, Konsistenz).",
+    "video_url": "",
+    "quelle": "Expertenstandard Pflege von Menschen mit chronischen Wunden"
+  },
+  {
+    "lehrjahr": 1,
+    "kategorie": "Grundpflege",
+    "frage": "Was versteht man unter dem Begriff 'Pneumonieprophylaxe' und nenne drei Maßnahmen.",
+    "erklaerung": "Maßnahmen zur Vermeidung einer Lungenentzündung. \nBeispiele: \n1. Atemunterstützende Lagerungen (V-A-T-I Lagerung, Oberkörperhochlagerung).\n2. Atemübungen (z.B. mit Triflo-Gerät) und tiefes Durchatmen.\n3. Frühmobilisation.\n4. Sekretverflüssigung durch ausreichende Flüssigkeitszufuhr (sofern keine Kontraindikationen).",
+    "video_url": "",
+    "quelle": "Expertenstandard Erhaltung und Förderung der Mobilität"
+  },
+  {
+    "lehrjahr": 2,
+    "kategorie": "Recht",
+    "frage": "Was regelt eine Patientenverfügung?",
+    "erklaerung": "In einer Patientenverfügung legt ein einwilligungsfähiger Volljähriger schriftlich fest, ob er in bestimmte, zum Zeitpunkt der Festlegung noch nicht unmittelbar bevorstehende medizinische Untersuchungen, Heilbehandlungen oder ärztliche Eingriffe einwilligt oder sie untersagt. (Oft relevant bei lebensverlängernden Maßnahmen).",
+    "video_url": "",
+    "quelle": "§ 1827 BGB"
+  },
+  {
+    "lehrjahr": 3,
+    "kategorie": "Gerontopsychiatrie",
+    "frage": "Was sind die Kernsymptome einer Parkinson-Krankheit (Morbus Parkinson)?",
+    "erklaerung": "Die vier Kardinalsymptome sind (TRAP):\nT = Tremor (Ruhezittern).\nR = Rigor (Muskelsteifigkeit).\nA = Akinesie / Bradykinesie (Bewegungsarmut / Bewegungsverlangsamung).\nP = Posturale Instabilität (Störung der Haltungsstabilität, erhöhte Sturzgefahr).",
+    "video_url": "",
+    "quelle": "Pflege Heute - Neurologie"
+  }
+]

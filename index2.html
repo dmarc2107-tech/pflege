@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>BFP24 | Pflege-Examenstrainer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>BFP24 Examenstrainer 🩺</h1>
+            <p class="subtitle">Berufsbildende Schule & Praxis</p>
+        </header>
+
+        <div class="filters">
+            <select id="lehrjahrFilter">
+                <option value="alle">📚 Alle Lehrjahre</option>
+                <option value="1">🟢 1. Lehrjahr (Grundlagen)</option>
+                <option value="2">🟡 2. Lehrjahr (Spezifisch)</option>
+                <option value="3">🔴 3. Lehrjahr (Examen & Komplex)</option>
+            </select>
+            
+            <select id="kategorieFilter">
+                <option value="alle">🔍 Alle Kategorien</option>
+                <option value="Anatomie">Anatomie & Physiologie</option>
+                <option value="Gerontopsychiatrie">Gerontopsychiatrie</option>
+                <option value="Ambulante Pflege">Ambulante Pflege</option>
+                <option value="Krankheitslehre">Krankheitslehre</option>
+                <option value="Recht">Recht & Ethik</option>
+            </select>
+        </div>
+
+        <div class="card-counter">
+            <span id="kartenStatus">Wähle deine Filter und starte!</span>
+        </div>
+
+        <!-- Die 3D Flip-Karte -->
+        <div class="flip-card hidden" id="lernKarte">
+            <div class="flip-card-inner" id="cardInner">
+                <!-- VORDERSEITE (Frage) -->
+                <div class="flip-card-front">
+                    <div class="card-header">
+                        <span class="badge badge-lj" id="badgeLehrjahr"></span>
+                        <span class="badge badge-kat" id="badgeKategorie"></span>
+                    </div>
+                    <div class="question-content">
+                        <h2 id="frageText">Lädt...</h2>
+                        <p class="hint">Tippe auf die Karte, um die Lösung zu sehen</p>
+                    </div>
+                </div>
+                
+                <!-- RÜCKSEITE (Lösung) -->
+                <div class="flip-card-back">
+                    <div class="answer-content">
+                        <h3>Lösung:</h3>
+                        <p id="erklaerungText"></p>
+                        <div id="videoContainer"></div>
+                        <div id="quellenText" class="quelle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button id="nextButton" class="btn-primary hidden">Nächste Karte ziehen ➔</button>
+            <button id="startButton" class="btn-primary">Training starten</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
